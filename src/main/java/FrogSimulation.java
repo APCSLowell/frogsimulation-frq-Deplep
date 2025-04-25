@@ -30,7 +30,7 @@ public class FrogSimulation
 	
 	public double runSimulations(int num)
 	{ 
-		private int success = 0;
+		int success = 0;
 		for(int i = 0; i < num; i++){
 			if(simulate() == true){
 				success += 1;
