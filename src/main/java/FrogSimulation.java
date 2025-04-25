@@ -25,7 +25,7 @@ public class FrogSimulation
 				return false;
 			}
 		}
-
+		return false;
 	}
 	
 	public double runSimulations(int num)
