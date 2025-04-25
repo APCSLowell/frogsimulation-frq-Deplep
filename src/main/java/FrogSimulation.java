@@ -18,7 +18,7 @@ public class FrogSimulation
 		int pos = 0;
 		for(int i = 0; i < maxHops; i++){
 			pos += hopDistance();
-			if(pos > goalDistance){
+			if(pos >= goalDistance){
 				return true;
 			}
 			if(pos < 0){
